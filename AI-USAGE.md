@@ -1,6 +1,6 @@
 # AI Usage Disclosure & Verification Log (AI-USAGE.md)
 
-This document provides a transparent record of how AI assistance was utilized throughout the development of **VoxBridge**, and highlights concrete errors and nuances that were identified, caught, and corrected during verification.
+This document provides a transparent record of how AI assistance was utilized throughout the development of **Gateway Anomaly Prioritization**, and highlights concrete errors and nuances that were identified, caught, and corrected during verification.
 
 ---
 

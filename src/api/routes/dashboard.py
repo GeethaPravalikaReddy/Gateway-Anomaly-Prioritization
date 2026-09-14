@@ -1,4 +1,4 @@
-"""Interactive Web Dashboard Route for VoxBridge."""
+"""Interactive Web Dashboard Route for Gateway Anomaly Prioritization."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ DASHBOARD_HTML = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VoxBridge — Radio Network Anomaly & Dispatch Dashboard</title>
+  <title>Gateway Anomaly Prioritization — Radio Network Anomaly & Dispatch Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -539,7 +539,7 @@ DASHBOARD_HTML = """<!DOCTYPE html>
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
         </div>
         <div>
-          <h1 class="brand-title">VoxBridge Analytics</h1>
+          <h1 class="brand-title">Gateway Anomaly Prioritization Analytics</h1>
           <div class="brand-subtitle">LPDG Radio Network Anomaly Detection & Dispatch Prioritization</div>
         </div>
       </div>
@@ -901,5 +901,5 @@ DASHBOARD_HTML = """<!DOCTYPE html>
 @router.get("/", response_class=HTMLResponse, include_in_schema=False)
 @router.get("/dashboard", response_class=HTMLResponse, include_in_schema=False)
 async def get_dashboard() -> HTMLResponse:
-    """Serve the VoxBridge interactive operations and analytics dashboard."""
+    """Serve the Gateway Anomaly Prioritization interactive operations and analytics dashboard."""
     return HTMLResponse(content=DASHBOARD_HTML, status_code=200)

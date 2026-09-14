@@ -151,10 +151,10 @@ def test_dashboard_endpoint(test_client: TestClient):
     """GET / and GET /dashboard should return 200 with HTML content."""
     res1 = test_client.get("/")
     assert res1.status_code == 200
-    assert "VoxBridge" in res1.text
+    assert "Gateway Anomaly Prioritization" in res1.text
     assert "text/html" in res1.headers["content-type"]
 
     res2 = test_client.get("/dashboard")
     assert res2.status_code == 200
-    assert "VoxBridge" in res2.text
+    assert "Gateway Anomaly Prioritization" in res2.text
 

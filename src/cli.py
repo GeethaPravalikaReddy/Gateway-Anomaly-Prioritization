@@ -1,4 +1,4 @@
-"""Command-line interface (CLI) entry point for VoxBridge."""
+"""Command-line interface (CLI) entry point for Gateway Anomaly Prioritization."""
 
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ def cmd_serve(args: argparse.Namespace) -> int:
     """Start the FastAPI uvicorn server."""
     import uvicorn
 
-    print(f"Starting VoxBridge API on http://{args.host}:{args.port}")
+    print(f"Starting Gateway Anomaly Prioritization API on http://{args.host}:{args.port}")
     uvicorn.run("src.api.app:app", host=args.host, port=args.port, reload=args.reload)
     return 0
 
@@ -60,7 +60,7 @@ def cmd_validate(args: argparse.Namespace) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="VoxBridge: Gateway Anomaly Detection & Prioritization CLI",
+        description="Gateway Anomaly Prioritization: Gateway Anomaly Detection & Prioritization CLI",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to execute")

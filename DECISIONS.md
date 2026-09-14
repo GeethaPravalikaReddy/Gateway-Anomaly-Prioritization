@@ -1,6 +1,6 @@
 # Architecture & Engineering Decisions (DECISIONS.md)
 
-This document details five key architectural and technical decisions made during the engineering of **VoxBridge** for the **LPDG Innovation Hub Selection Challenge 2026 (Part 2: Software Development Specialization)**.
+This document details five key architectural and technical decisions made during the engineering of **Gateway Anomaly Prioritization** for the **LPDG Innovation Hub Selection Challenge 2026 (Part 2: Software Development Specialization)**.
 
 In accordance with the evaluation rubric, each decision explicitly articulates:
 1. **The Decision**: What was chosen and implemented in code.

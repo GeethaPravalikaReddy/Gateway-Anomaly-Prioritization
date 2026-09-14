@@ -18,7 +18,7 @@ from src.api.routes import (
 def create_app() -> FastAPI:
     """Create and configure the FastAPI web service instance."""
     app = FastAPI(
-        title="VoxBridge - Gateway Anomaly & Prioritization API",
+        title="Gateway Anomaly Prioritization - Gateway Anomaly & Prioritization API",
         description=(
             "Production-ready REST API for LPDG Radio Network field technician dispatch prioritization, "
             "anomaly detection, and telemetry analytics."

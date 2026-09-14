@@ -1,8 +1,8 @@
-# VoxBridge - Radio Network Anomaly Detection & Dispatch Prioritization
+# Gateway Anomaly Prioritization - Radio Network Anomaly Detection & Dispatch Prioritization
 
 > **LPDG Innovation Hub Selection Challenge 2026** — *Part 2: Software Development Specialization*
 
-VoxBridge is a production-grade Python web service and analytics engine designed to detect degraded radio network gateways and prioritize weekly technician site visits.
+Gateway Anomaly Prioritization is a production-grade Python web service and analytics engine designed to detect degraded radio network gateways and prioritize weekly technician site visits.
 
 ---
 
@@ -16,7 +16,7 @@ LPDG operates an IoT radio network comprising ~320 gateways across diverse site 
   * **False Positive (Unnecessary visit)**: €380 one-time cost.
   * **False Negative (Broken gateway ignored)**: €600 per week for every week the failure persists.
 
-VoxBridge ingests hourly gateway telemetry, establishes per-gateway rolling baselines, detects multi-metric 3-sigma statistical anomalies, and generates prioritized, human-readable dispatch recommendations for field operations.
+Gateway Anomaly Prioritization ingests hourly gateway telemetry, establishes per-gateway rolling baselines, detects multi-metric 3-sigma statistical anomalies, and generates prioritized, human-readable dispatch recommendations for field operations.
 
 ---
 
